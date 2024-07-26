@@ -137,3 +137,60 @@ body{
 	margin: 0 auto;
 	justify-content: space-around;
 }
+body{
+    padding-top: 200px;
+    background-color: #7f909c;
+}
+b{
+    width: 70px;
+    display: inline-block;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #daeaf5;
+    color: black;
+
+
+}
+button{
+    width: 60px;
+    border-radius: 20px;
+    /* transition: 1s; */
+    background-color: rgb(96, 197, 197);
+}
+button:hover{
+    transition: 1s;
+}
+li{
+    margin-bottom: 4px;
+}
+#loading_message {
+    display: none;
+        width: 40px;
+        height: 40px;
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #086aac;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 10px auto; /* Adjust margin as needed */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#container {
+  position: relative;
+  text-align: center; /* Center elements horizontally */
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgb(172, 209, 197);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
